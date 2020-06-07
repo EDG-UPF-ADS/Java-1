@@ -18,7 +18,7 @@ public class Questao2 {
     } // for l
     // achar o maior valor. 
     for (int l=0; l<2; l++){  // percorre a matriz e acha o maior. 
-        for(int c=0; c<2; c++){
+        for(int c=0; c<3; c++){
             if( (l==0)&&(c==0)){
                 maior = m[l][c];
             }
@@ -29,7 +29,7 @@ public class Questao2 {
     }// for LINHA
     System.out.println("O Maior foi "+maior);
          for (int l=0; l<2; l++){  // percorre a matriz e acha a posiçao do maior.
-            for(int c=0; c<2; c++){
+            for(int c=0; c<3; c++){
                 if(maior==m[l][c]){
                     System.out.println("A Posiçao que o Valor Apecece na Matriz é "+l+c);
             } //for COLUNA       
